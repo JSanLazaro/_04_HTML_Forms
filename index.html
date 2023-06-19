@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <form action="#">
+        <section id="name">
+           <label for="name">Name</label>
+        <input type="text" name="nombre" id="name"> 
+        </section>
+        <section id="email">
+            <label for="email">Email</label>
+        <input type="text" name="correo" id="email">
+        </section>
+        <section id="age">
+<label for="age">Age</label>
+        <input type="number" name="edad" id="age">
+        </section>
+        <section id="options">
+            <!-- select -->
+        
+        <label for="options">Wich best option describes you?</label><br>
+        <select id="options" name="describes_sel">
+            <option value="estudiante">Estudiante</option>
+            <!-- <option value="sabio">Sabio</option> -->
+            <option value="profesional">Profesional</option>
+            <option value="nipu">npi</option>
+        </select>
+        </section>
+        <section id="radio">
+            <!-- radio buttons -->
+        
+        <p>Wold you recomend this site?</p>
+        <fieldset>
+
+            <label for="radio-no"><input type="radio" name="recommend_rad" id="radio-no"> No</label>
+            <label for="radio-yes">
+                <input type="radio" name="recommend_rad" id="radio-yes"> yes</label>
+            <label for="radio-maybe">
+                <input type="radio" name="recommend_rad" id="radio-maybe"> Maybe</label>
+        </fieldset>
+        </section>
+        <section id="check">
+<!-- checkbox -->
+            <p>Language and Frameworks known</p>
+        <fieldset>
+            
+            <label for="java"> <input type="checkbox" id="java" name="java" value="java"> java</label><br>
+            
+            <label for="javascript"><input type="checkbox" id="javascript" name="javascript" value="javascript"> javascript</label><br>
+            
+            <label for="html"><input type="checkbox" id="html" name="html" value="html"> html</label>
+            
+            <label for="angular"><input type="checkbox" id="angular" name="angular" value="angular"> angular</label>
+
+            <label for="c++"><input type="checkbox" id="c++" name="c++" value="c++"> C++</label>
+
+            <label for="python"><input type="checkbox" id="python" name="python" value="python"> Python</label>
+
+            <label for="django"><input type="checkbox" id="django" name="django" value="django"> Django</label>
+
+            <label for="spring"><input type="checkbox" id="spring" name="spring" value="spring"> Spring</label>
+
+            <label for="react"><input type="checkbox" id="react" name="react" value="react"> React</label>
+
+            
+
+        </fieldset>
+        </section>
+
+        
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
